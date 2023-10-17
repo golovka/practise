@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Window work</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="">
+        <link href="css/window.css" rel="stylesheet">
+        <script src="js/Korolev.js"></script>
+    </head>
+    <body>
+        <div>
+            <h1>Window calculations</h1>
+
+            <label for="window_height">Window height (cm)</label>
+            <input type="number" id="window_height">
+            <br>
+            <label for="window_width">Window width (cm) </label>
+            <input type="number" id="window_width">
+            <br>
+            <label for="window_amount">Window amount</label>
+            <input type="number" id="window_amount">
+            <br>
+            <button id="calculate" onclick="window_calclulation()">Calculate</button>
+            <p id="error"></p>
+            <h2>One window</h2>
+            <p>Amount of wood needed: <span id="wood"></span> m<br>
+                Amount of glass needed: <span id="glass"></span> m<sup>2</sup></p>
+            <h2>Set of windows</h2>
+            <p>Amount of wood needed: <span id="woods"></span> m<br>
+                Amount of glass needed: <span id="glasses"></span> m<sup>2</sup></p>
+        </div>
+
+    </body>
+</html>

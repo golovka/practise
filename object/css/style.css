@@ -1,0 +1,30 @@
+/*
+colors
+
+#0B0205 - blacky purple
+#2C1B47 - deep purple
+#724C9D - middle purple
+#DCCAE9 - light purple
+#9356A0 - reddish saturated purple
+
+#ba7338 - semisaturated yellowish brown
+#d5b08d - desaturated yellowish brown
+
+#432523 - dark chocolate
+#75372a - milk chocolate
+#b07265 - light chocolate
+
+*/
+
+/*General design*/
+body{
+    
+    background-color: #ede2ff;
+}
+
+li{
+    display: inline-block;
+    vertical-align: top;
+    margin: 2em;
+}
+ 
